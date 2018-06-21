@@ -4,16 +4,34 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="CSS/style.css">
 <title>Javascript Test</title>
 </head>
 <body>
-<div>
+<div id="container">
+    <div class="smiley-green">
+      <div class="left-eye"></div>
+      <div class="right-eye"></div>
+      <div class="smile"></div>
+    </div>
 
-<button name= "Button" onmouseover="this.innerHTML=Date()" onmouseout="this.innerHTML=BUTTON"> 
-BUTTON 	
-</button>
+    <div class="smiley-yellow">
+      <div class="left-eye"></div>
+      <div class="right-eye"></div>
+      <div class="smile"></div>
+    </div>
 
-</div>
+    <div class="smiley-red">
+      <div class="left-eye"></div>
+      <div class="right-eye"></div>
+      <div class="smile"></div>
+    </div>
+  </div>
+
+  <textarea id="log">Events will show up here!
+</textarea>
+
+  <script src="JS/script.js"></script>
 
 
 </body>
